@@ -20,7 +20,7 @@ header {
     position: absolute;
     width: 1240px;
     height: 924px;
-    background: #ccc url(../images/Frame\ 3.png) no-repeat center/cover;
+    background: #ccc url(../images/Home.png) no-repeat center/cover;
     margin-block: 50px;
     margin-inline: 130px;
     border-radius: 20px;
@@ -62,8 +62,14 @@ nav ul li {
     font-family: vagr1;
     color: #626264;
 }
+nav ul li:hover {
+    color: #1db954;
+}
 .active {
     color: #1db954;
+}
+.active:hover {
+    color: #626264;
 }
 .btn1 {
     padding: 2px 18px;
@@ -75,6 +81,10 @@ nav ul li {
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
     -o-border-radius: 25px;
+}
+.btn1:hover {
+    background: #fff;
+    color: #1db954;
 }
 .header-content {
     clear: both;
@@ -92,11 +102,14 @@ nav ul li {
     color: #1db954;
 }
 .header-btn {
+    position: absolute;
     width: 70%;
     height: 250px;
+    top: 42%;
+    left: 57%;
 }
 .header-btn .btn2 {
-    padding: 10px 110px;
+    padding: 8px 130px;
     background: #1db954;
     border: 7px solid #1db954;
     border-radius: 20px;
@@ -106,4 +119,7 @@ nav ul li {
     -o-border-radius: 20px;
     text-align: center;
     color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 8px;
 }
