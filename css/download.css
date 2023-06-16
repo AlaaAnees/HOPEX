@@ -1,0 +1,90 @@
+@import url(myfont.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 100%;
+    overflow: hidden;
+}
+header {
+    min-width: 100%;
+    min-height: 750px;
+    background: linear-gradient(#429671, #142122, #0f1a1e);
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.wrapper {
+    min-width: 1240px;
+    min-height: 600px;
+    position: absolute;
+    /* background: #ccc url(../images/Default.png) no-repeat; */
+    background: #ccc;
+    margin-block: 70px;
+    margin-inline: 130px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.inner {
+    width: 100%;
+    padding-inline: 40px;
+}
+.logo {
+    width: 250px;
+    height: 50px;
+    float: left;
+}
+.logo img {
+    width: 140px;
+    vertical-align: middle;
+    margin: 20px 60px;
+    line-height: 70px;
+}
+nav {
+    width: 500px;
+    height: 70px;
+    float: right;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    width: 100px;
+    height: 70px;
+    line-height: 70px;
+    float: left;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: vagr1;
+    color: #626264;
+}
+nav ul li:hover {
+    color: #1db954;
+}
+.active {
+    color: #1db954;
+}
+.active:hover {
+    color: #626264;
+}
+.btn1 {
+    padding: 2px 18px;
+    border-radius: 25px;
+    border: 1px solid #1db954;
+    background: #1db954;
+    color: #fff;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.btn1:hover {
+    background: #fff;
+    color: #1db954;
+}
