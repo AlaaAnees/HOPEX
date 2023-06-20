@@ -1,90 +1,181 @@
 @import url(myfont.css);
+@import url(animate.css);
+@import url(all.css);
+@import url(hover.css);
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-main {
-    width: 100%;
-    overflow: hidden;
+    font-family: vagr1;
 }
 header {
-    min-width: 100%;
-    min-height: 750px;
+    width: 100%;
+    min-height: 900px;
     background: linear-gradient(#429671, #142122, #0f1a1e);
-    margin: auto;
     position: relative;
     overflow: hidden;
-    box-sizing: border-box;
 }
-.wrapper {
-    min-width: 1240px;
-    min-height: 600px;
+.section1 {
+    width: 1240px;
+    min-height: 800px;
     position: absolute;
-    /* background: #ccc url(../images/Default.png) no-repeat; */
-    background: #ccc;
-    margin-block: 70px;
-    margin-inline: 130px;
+    background: #eff1ed;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    margin: 25px 127px;
+    /*  overflow: hidden; */
 }
-.inner {
-    width: 100%;
-    padding-inline: 40px;
+.inner-section1 {
+    display: flex;
+    justify-content: space-between;
 }
 .logo {
     width: 250px;
-    height: 50px;
-    float: left;
+    min-height: 50px;
+    margin: 10px 50px
 }
 .logo img {
-    width: 140px;
-    vertical-align: middle;
-    margin: 20px 60px;
-    line-height: 70px;
+    width: 150px;
+    min-height: 30px;
 }
 nav {
-    width: 500px;
-    height: 70px;
-    float: right;
+    width: 40%;
+    min-height: 20px;
+    margin-inline: 20px;
 }
 nav ul {
-    list-style-type: none;
+    display: flex;
 }
 nav ul li {
-    width: 100px;
-    height: 70px;
-    line-height: 70px;
-    float: left;
-    cursor: pointer;
-    font-size: 17px;
-    font-family: vagr1;
+    list-style-type: none;
+    justify-content: flex-end;
+    margin: 12px 12px;
+    line-height: 40px;
     color: #626264;
+    font-size: 18px;
 }
-nav ul li:hover {
-    color: #1db954;
+ul a {
+    text-decoration: none;
 }
-.active {
-    color: #1db954;
-}
-.active:hover {
-    color: #626264;
+li:hover {
+    color: #007918;
 }
 .btn1 {
-    padding: 2px 18px;
-    border-radius: 25px;
-    border: 1px solid #1db954;
+    width: 110px;
+    height: 25px;
     background: #1db954;
     color: #fff;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
 }
 .btn1:hover {
     background: #fff;
+    color: #007918;
+}
+/*****/
+.section1-content {
+    display: flex;
+    justify-content: space-between;
+    min-height: 750px;
+}
+.left-side {
+    width: 100%;
+    margin: 160px 45px;
+}
+.left-side1 {
+    font-size: 35px;
+    z-index: 9999;
+}
+.left-side1 span:nth-of-type(1) {
+    color: #2a2a2b;
+}
+.left-side1 span:nth-of-type(2) {
     color: #1db954;
+}
+.left-side2 {
+    margin-top: 70px;
+}
+.left-side2 button {
+    display: block;
+    margin: 20px 10px;
+    border-radius: 18px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    -ms-border-radius: 18px;
+    -o-border-radius: 18px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.btn2 {
+    background: #1db954;
+    width: 330px;
+    height: 77px;
+    position: relative;
+    z-index: 999;
+}
+.btn2 span {
+    width: 55%;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif !important;
+    position: absolute;
+    left: 90px;
+    top: 25px;
+}
+.btn2 i {
+    font-size: 62px;
+    position: absolute;
+    left: 20px;
+    top: 8px;
+}
+.btn3 {
+    background: #001f24;
+    position: relative;
+    width: 330px;
+    height: 77px;
+    z-index: 999;
+}
+.btn3 span {
+    width: 55%;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif !important;
+    position: absolute;
+    top: 25px;
+    left: 90px;
+}
+.btn3 i {
+    font-size: 65px;
+    position: absolute;
+    left: 20px;
+    top: 6px;
+}
+/************/
+.right-side {
+    width: 70%;
+    min-height: 600px;
+}
+.img1 img {
+    position: absolute;
+    width: 1030px;
+    height: 700px;
+    margin-top: 90px;
+    right: -100px;
+    top: 30px;
+}
+.top-img {
+    width: 590px;
+    min-height: 795px;
+    background: url(../images/Default.png) no-repeat center/cover;
+    position: absolute;
+    top: 170px;
+    right: -75px;
 }
