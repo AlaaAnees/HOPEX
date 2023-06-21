@@ -129,6 +129,9 @@ p span {
     margin-top: 190px;
     margin-left: 50px;
 }
+.left-side {
+    cursor: pointer;
+}
 /* .left-side {
     position: relative;
     perspective: 1000px;
@@ -150,6 +153,7 @@ p span {
 } */
 .right-side {
     margin-right: 230px;
+    cursor: pointer;
 }
 .block {
     width: 470px;
