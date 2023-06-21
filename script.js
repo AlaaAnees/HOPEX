@@ -7,4 +7,4 @@
  }
  animateElement();
  element.addEventListener('animationend', resetAnimation);
- setInterval(animateElement, 2000);
+ setInterval(animateElement, 1000);
