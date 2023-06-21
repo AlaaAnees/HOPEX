@@ -13,6 +13,7 @@ header {
     min-height: 1060px;
     background: linear-gradient(#429671, #142122, #0f1a1e);
     position: relative;
+    overflow: hidden;
 }
 .section1 {
     width: 1240px;
@@ -25,6 +26,7 @@ header {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     margin: 65px 127px;
+    overflow: hidden;
 }
 .inner-section1 {
     display: flex;
@@ -85,6 +87,7 @@ li:hover {
     background: #fff;
     color: #007918;
 }
+/****/
 .section1-content {
     /* display: flex;
     flex-direction: column;

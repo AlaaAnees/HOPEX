@@ -2,3 +2,7 @@
     font-family: vagr1;
     src: url(../fonts/VAGRundschriftBQ.otf);
 }
+@font-face {
+    font-family: outfit;
+    src: url(../fonts/Outfit-Regular.otf);
+}
