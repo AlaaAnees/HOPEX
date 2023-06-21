@@ -99,9 +99,142 @@ li:hover {
     width: 800px;
     height: 550px;
 }
-/****/
+/************************/
 .section2 {
     width: 100%;
-    min-height: 550px;
+    min-height: 670px;
     background: #fff;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.section2 p {
+    width: 50%;
+    height: 100px;
+    text-align: justify;
+    margin-top: 150px;
+    margin-inline: 350px;
+    font-family: outfit;
+    color: #37474f;
+    font-size: 32px;
+}
+p span {
+    color: #1db954;
+    font-family: outfit;
+}
+.section2-inner {
+    width: 100%;
+    min-height: 670px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 190px;
+}
+.left-side {
+    position: relative;
+    perspective: 1000px;
+}
+.left-side img {
+    position: absolute;
+    width: 620px;
+    height: 600px;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+    margin-inline: -130px;
+}
+.left-side img:hover {
+    transform: rotateX(10deg) rotateY(10deg);
+    -webkit-transform: rotateX(10deg) rotateY(10deg);
+    -moz-transform: rotateX(10deg) rotateY(10deg);
+    -ms-transform: rotateX(10deg) rotateY(10deg);
+    -o-transform: rotateX(10deg) rotateY(10deg);
+}
+.block {
+    width: 470px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background: #ffffff;
+    margin-top: 80px;
+    margin-inline: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-style: inset;
+    position: relative;
+}
+.block h3 {
+    padding: 6px 30px;
+    font-family: outfit;
+    font-size: 30px;
+}
+.block h3 span:nth-of-type(1) {
+    color: #007918;
+    font-family: outfit;
+}
+.block h3 span:nth-of-type(2) {
+    color: #bf9300;
+    font-family: outfit;
+}
+.inner-block {
+    width: 50px;
+    height: 77px;
+    background: #001f24;
+    border-bottom-right-radius: 55px;
+    border-top-right-radius: 55px;
+    position: absolute;
+    right: 0;
+}
+.img-content img {
+    margin-right: 40px;
+    margin-top: 9px;
+}
+.img-content1 img {
+    width: 95px;
+    min-height: 10px;
+    margin-right: 20px;
+    margin-top: 9px;
+}
+.img-content2 img {
+    width: 95px;
+    min-height: 10px;
+    margin-right: 20px;
+    margin-top: 12px;
+}
+/************************/
+.section3 {
+    width: 100%;
+    min-height: 400px;
+}
+.section3 p {
+    width: 50%;
+    text-align: justify;
+    font-size: 30px;
+    font-family: outfit;
+    margin: auto;
+    color: #37474f;
+}
+.section3 p span {
+    font-family: outfit;
+}
+/**************************/
+footer {
+    width: 100%;
+    height: 130px;
+    background: #001f24;
+}
+footer p {
+    line-height: 70px;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    font-family: outfit;
+    margin-right: 30px;
+}
+.arrow {
+    position: relative;
+    font-size: 30px;
+    color: rgba(250, 250, 250, 0.5);
+    left: 80%;
+    top: 37%;
 }
