@@ -127,8 +127,9 @@ p span {
     display: flex;
     justify-content: space-evenly;
     margin-top: 190px;
+    margin-left: 50px;
 }
-.left-side {
+/* .left-side {
     position: relative;
     perspective: 1000px;
 }
@@ -146,6 +147,9 @@ p span {
     -moz-transform: rotateX(10deg) rotateY(10deg);
     -ms-transform: rotateX(10deg) rotateY(10deg);
     -o-transform: rotateX(10deg) rotateY(10deg);
+} */
+.right-side {
+    margin-right: 230px;
 }
 .block {
     width: 470px;
@@ -153,8 +157,7 @@ p span {
     display: flex;
     justify-content: space-around;
     background: #ffffff;
-    margin-top: 80px;
-    margin-inline: 40px;
+    margin-top: 70px;
     border-radius: 20px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 20px;
